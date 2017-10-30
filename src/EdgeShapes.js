@@ -37,8 +37,8 @@ for more datails on implementation.
 **/
 
 class EdgeShapes extends React.Component {
-	props: Props;
-
+	// props: Props;
+	
 	constructor(props: Props) {
 		super(props)
 		if(this.props.sigma && this.props.default)
